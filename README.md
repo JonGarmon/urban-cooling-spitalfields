@@ -20,12 +20,13 @@ Urban Heat Mitigation: Spatially Optimizing Tree Canopy in Spitalfields
 ​Spacing Optimization: Calculated a 5-meter interval to balance root health with maximum shade contiguity.
 ​Projected Impact: Empirical modeling shows a potential 5°C reduction in ambient surface temperatures during peak 14:00–16:00 intervals.
 
-##​ Data Insights
+## Data Insights
+
 ​Spatial Capacity: Through an audit of underground utilities and building entrances, I identified a realistic capacity for 18 additional trees.
 ​Impact Modeling: (See cooling_impact_analysis.png in this repo).
 ​Advocacy Trigger: Data shows that 30 signatures from local stakeholders (e.g., Toynbee Hall, local businesses) are required to trigger a formal Council response—a goal this project supports.
 
-##​ Tech Stack & Methodology
+## Tech Stack & Methodology
 ​Python (Pandas, Matplotlib, Seaborn): Used for heat profile simulation and cooling delta visualization.
 ​Spatial Analysis: Manual audit of street length (approx. 100m) vs. infrastructure constraints.
 ​Strategic Communication: Translated technical environmental data into a "Council-ready" proposal.
@@ -35,7 +36,8 @@ Urban Heat Mitigation: Spatially Optimizing Tree Canopy in Spitalfields
 ​presentation/: Contains the generated .pptx file for stakeholder meetings with Ward Councillors.
 ​visuals/: High-resolution charts showing the cooling ROI of the proposed canopy.
 
-​## Stakeholders & Advocacy
+
+## Stakeholders & Advocacy
 ​This data is being used to lobby:
 ​Cllr Suluk Ahmed & Cllr Kabir Hussain (Spitalfields & Banglatown Ward).
 ​Tower Hamlets Tree Team.
