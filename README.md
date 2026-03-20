@@ -7,7 +7,8 @@
 ---
 
 ## 🌳 0. Implementation: March 2026
-*First 3 Crimson Sentry specimens planted in Toynbee Street.*
+*First Crimson Sentry specimen planted in Toynbee Street.
+Executed by Trees for Streets https://www.treesforstreets.org/*
 
 <p align="center">
   <img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" width="31%" />
