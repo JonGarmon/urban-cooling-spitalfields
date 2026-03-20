@@ -24,6 +24,9 @@ Species Selection: The ‘Crimson Sentry’ was chosen specifically for its colu
 Operational Validation: This pilot installation proved that high-impact greening is possible within the existing footprint of Toynbee Street. By successfully navigating the dense network of underground gas and water lines for this single pit, we have established a technical template for the remaining 17 locations.
 
 Visual Audit: The 360-degree technical audit (Photos 01-03) provides transparent evidence of the tree’s integration with the streetscape, confirming that the "Optimal 18" strategy is physically viable, not just a digital model.
+
+
+
 ---
 
 ## 🌡️ 1. The Problem: Urban Heat Island
@@ -38,6 +41,9 @@ The Thermal Barrier: Current canopy cover in this specific corridor is under 10%
 The Mobility Impact: High surface temperatures actively discourage "Active Transport." People are less likely to walk to local businesses or cycle to work when the environment offers no thermal relief, further increasing the local carbon footprint as people shift to air-conditioned vehicles or avoid the street entirely.
 
 Modeling the Delta: Our simulation (Figure 1) identifies the exact "hot spots" where thermal mass is highest. This data ensures that our proposed trees aren't placed randomly, but are positioned as "Thermal Interrupters" to break up these heat concentrations.
+
+
+
 ---
 
 ## 📏 2. The "Optimal 18" Strategy
@@ -61,6 +67,9 @@ Safety & Surveillance: Statistical analysis shows a significant negative correla
 The Cycling Connection: Data reveals a direct link between tree-lined streets and increased cycling frequency. Shaded "Green Corridors" act as psychological and physical invitations for residents to choose sustainable transport, supporting the Mayor of London's healthy streets targets.
 
 Mental Wellbeing: In high-density wards like Spitalfields & Banglatown, accessible greening is a primary driver of reduced cortisol levels and improved resident mental health. This project treats trees as "Preventative Healthcare" infrastructure that saves the NHS money in the long term.
+
+
+
 ---
 
 **Analyst:** Jonathan Garcia  
