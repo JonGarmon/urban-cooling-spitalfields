@@ -7,7 +7,7 @@
 ---
 
 ## 🌳 0. Implementation: March 2026
-*First Crimson Sentry specimen planted in Toynbee Street.
+*First Crimson Sentry https://www.rhs.org.uk/plants/46362/acer-platanoides-crimson-sentry/details specimen planted in Toynbee Street.
 Executed by Trees for Streets https://www.treesforstreets.org/*
 
 <p align="center">
