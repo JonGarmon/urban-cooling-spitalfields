@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_57734c6e65e25969ff9e0a71c629b048 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_57734c6e65e25969ff9e0a71c629b048" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_57734c6e65e25969ff9e0a71c629b048 = L.map(
+                "map_57734c6e65e25969ff9e0a71c629b048",
+                {
+                    center: [51.5173, -0.0743],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 19,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_953cd187f719e78be10966bdbe164a03 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_953cd187f719e78be10966bdbe164a03.addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            var circle_marker_36ecacbe8ee151a2336b65e655bae60c = L.circleMarker(
+                [51.517006, -0.074228],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_36ecacbe8ee151a2336b65e655bae60c.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_671835716202a21b5cdd1a34326ce812 = L.circleMarker(
+                [51.517072, -0.07425],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_671835716202a21b5cdd1a34326ce812.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4acc740b494a7f186349350ef7490bb8 = L.circleMarker(
+                [51.517101, -0.074261],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_4acc740b494a7f186349350ef7490bb8.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd740b227ec24c6993fac450c3778b2c = L.circleMarker(
+                [51.517132, -0.074273],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_bd740b227ec24c6993fac450c3778b2c.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1f0f1ccc0cc991bfac5239dcc18e086a = L.circleMarker(
+                [51.517175, -0.07429],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_1f0f1ccc0cc991bfac5239dcc18e086a.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16e13fe1efe3d92692851bbd9bf89979 = L.circleMarker(
+                [51.517295, -0.074322],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_16e13fe1efe3d92692851bbd9bf89979.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75e38247bfbd7ee5326b4a7c38707f6d = L.circleMarker(
+                [51.517256, -0.074308],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_75e38247bfbd7ee5326b4a7c38707f6d.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fbba94275735664003903053f481f4de = L.circleMarker(
+                [51.517213, -0.074295],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_fbba94275735664003903053f481f4de.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b62ec6917388e3c6b177ee09d2dcda72 = L.circleMarker(
+                [51.517303, -0.074206],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_b62ec6917388e3c6b177ee09d2dcda72.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5230e3c8b599e6f98d49d4b731ed6b03 = L.circleMarker(
+                [51.517337, -0.074213],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_5230e3c8b599e6f98d49d4b731ed6b03.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7075df37be3898b6ec777e91c4da7679 = L.circleMarker(
+                [51.517382, -0.074347],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_7075df37be3898b6ec777e91c4da7679.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e9df27aab704cd83787d88b6828d9abc = L.circleMarker(
+                [51.517342, -0.074337],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_e9df27aab704cd83787d88b6828d9abc.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #12
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d353746823a89a1f6c41003794bce3d8 = L.circleMarker(
+                [51.517403, -0.074231],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_d353746823a89a1f6c41003794bce3d8.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #13
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aca884eaf0e8c8ae1b1762b8a66120d4 = L.circleMarker(
+                [51.517428, -0.074362],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_aca884eaf0e8c8ae1b1762b8a66120d4.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e7c432e52d22382da2869e636e0d29c = L.circleMarker(
+                [51.517473, -0.074376],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_2e7c432e52d22382da2869e636e0d29c.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_25de2f187d475a8132f4f565904ded1f = L.circleMarker(
+                [51.51752, -0.074391],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_25de2f187d475a8132f4f565904ded1f.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #16
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75a72643eaf4fdfb924f60896935f9b2 = L.circleMarker(
+                [51.517561, -0.074405],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_75a72643eaf4fdfb924f60896935f9b2.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #17
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de5809e5daa103bf700fff2733a68da2 = L.circleMarker(
+                [51.517639, -0.074429],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_de5809e5daa103bf700fff2733a68da2.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #18
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5927d76a9ba03bf3cf55736b44eb3145 = L.circleMarker(
+                [51.517682, -0.074446],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_5927d76a9ba03bf3cf55736b44eb3145.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #19
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32a45409fb2e4fefa2482caedf2e490b = L.circleMarker(
+                [51.517768, -0.074465],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_32a45409fb2e4fefa2482caedf2e490b.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #20
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff9a6eb7e089d3a6135bc40145c83a61 = L.circleMarker(
+                [51.517843, -0.074488],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_ff9a6eb7e089d3a6135bc40145c83a61.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #21
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c18264a5c11bbc0db5479cda0369ec87 = L.circleMarker(
+                [51.517914, -0.074508],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_c18264a5c11bbc0db5479cda0369ec87.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #22
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67810e95e0995bd22a0eaa4cf9a0613e = L.circleMarker(
+                [51.518325, -0.074579],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_67810e95e0995bd22a0eaa4cf9a0613e.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #23
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_782e1c71d036d51e41fb6c6433be31b2 = L.circleMarker(
+                [51.518402, -0.074522],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_782e1c71d036d51e41fb6c6433be31b2.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #24
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d74d9269f552e3a5502c4eb00add1b1a = L.circleMarker(
+                [51.518332, -0.074438],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_d74d9269f552e3a5502c4eb00add1b1a.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #25
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01418ace94e443c2c7d1143a75c86808 = L.circleMarker(
+                [51.517922, -0.074393],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_01418ace94e443c2c7d1143a75c86808.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #26
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3d828bfea08f03f3c4563e697b6f6d62 = L.circleMarker(
+                [51.517823, -0.074362],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_3d828bfea08f03f3c4563e697b6f6d62.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #27
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd7647d2194d11dd479820392ee11340 = L.circleMarker(
+                [51.517768, -0.07435],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_bd7647d2194d11dd479820392ee11340.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #28
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1f1a5ac62e99b6854eb57a8f1a011d6f = L.circleMarker(
+                [51.517716, -0.074336],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_1f1a5ac62e99b6854eb57a8f1a011d6f.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #29
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b0af1fee7bb56822d805636a19c3e820 = L.circleMarker(
+                [51.517657, -0.074318],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_b0af1fee7bb56822d805636a19c3e820.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_492ee66e592fa9f3b014e82ddcaa33f1 = L.circleMarker(
+                [51.517564, -0.074287],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_492ee66e592fa9f3b014e82ddcaa33f1.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #31
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6f97a2194290a7e4eb3b6cf3a773236 = L.circleMarker(
+                [51.517493, -0.074265],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_d6f97a2194290a7e4eb3b6cf3a773236.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #32
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_61f109178dc98f7eaed74d19198f64cf = L.circleMarker(
+                [51.517465, -0.074257],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_61f109178dc98f7eaed74d19198f64cf.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #33
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0700b1cdf683b5a1921b1f4185a93714 = L.circleMarker(
+                [51.517436, -0.074244],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_0700b1cdf683b5a1921b1f4185a93714.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #34
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3739a871d9d72741531af066a8f53cc8 = L.circleMarker(
+                [51.517369, -0.074222],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_3739a871d9d72741531af066a8f53cc8.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #35
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c01cb24378f8ed6eec30f0022663dcc6 = L.circleMarker(
+                [51.51727, -0.074196],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_c01cb24378f8ed6eec30f0022663dcc6.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #36
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5269a41a2b75d7f57cc3cf76e3535105 = L.circleMarker(
+                [51.517204, -0.074174],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_5269a41a2b75d7f57cc3cf76e3535105.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #37
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_053064f02d1f1e8a74054cc7a7764ab1 = L.circleMarker(
+                [51.517063, -0.074126],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_053064f02d1f1e8a74054cc7a7764ab1.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #38
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_636b46a463bffb549d788e145b6ddb75 = L.circleMarker(
+                [51.516838, -0.074269],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_636b46a463bffb549d788e145b6ddb75.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #39
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35a62f355cb5c5009f76840264c26b53 = L.circleMarker(
+                [51.516931, -0.074249],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_35a62f355cb5c5009f76840264c26b53.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #40
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aeb15498a6997e21119876fd0c973b53 = L.circleMarker(
+                [51.516941, -0.074052],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_aeb15498a6997e21119876fd0c973b53.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #41
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de76a5cea20147e36a67046b0b292f6e = L.circleMarker(
+                [51.517004, -0.074107],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_de76a5cea20147e36a67046b0b292f6e.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #42
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_690dfd6616bcbf73874744729481a030 = L.circleMarker(
+                [51.518055, -0.07455],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_690dfd6616bcbf73874744729481a030.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #43
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_80ef4d03284e410bb7f539df54e77729 = L.circleMarker(
+                [51.517964, -0.074522],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_80ef4d03284e410bb7f539df54e77729.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #44
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6445a0f31cdc7aa2028c93808ac405bd = L.circleMarker(
+                [51.517602, -0.074422],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+    
+            circle_marker_6445a0f31cdc7aa2028c93808ac405bd.bindTooltip(
+                `<div>
+                     Surveyed Tree Pit Location #45
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var heat_map_6638af06dca24fd1f8b956da9b987a6f = L.heatLayer(
+                [[51.517006, -0.074228, 0.8], [51.517072, -0.07425, 0.8], [51.517101, -0.074261, 0.8], [51.517132, -0.074273, 0.8], [51.517175, -0.07429, 0.8], [51.517295, -0.074322, 0.8], [51.517256, -0.074308, 0.8], [51.517213, -0.074295, 0.8], [51.517303, -0.074206, 0.8], [51.517337, -0.074213, 0.8], [51.517382, -0.074347, 0.8], [51.517342, -0.074337, 0.8], [51.517403, -0.074231, 0.8], [51.517428, -0.074362, 0.8], [51.517473, -0.074376, 0.8], [51.51752, -0.074391, 0.8], [51.517561, -0.074405, 0.8], [51.517639, -0.074429, 0.8], [51.517682, -0.074446, 0.8], [51.517768, -0.074465, 0.8], [51.517843, -0.074488, 0.8], [51.517914, -0.074508, 0.8], [51.518325, -0.074579, 0.8], [51.518402, -0.074522, 0.8], [51.518332, -0.074438, 0.8], [51.517922, -0.074393, 0.8], [51.517823, -0.074362, 0.8], [51.517768, -0.07435, 0.8], [51.517716, -0.074336, 0.8], [51.517657, -0.074318, 0.8], [51.517564, -0.074287, 0.8], [51.517493, -0.074265, 0.8], [51.517465, -0.074257, 0.8], [51.517436, -0.074244, 0.8], [51.517369, -0.074222, 0.8], [51.51727, -0.074196, 0.8], [51.517204, -0.074174, 0.8], [51.517063, -0.074126, 0.8], [51.516838, -0.074269, 0.8], [51.516931, -0.074249, 0.8], [51.516941, -0.074052, 0.8], [51.517004, -0.074107, 0.8], [51.518055, -0.07455, 0.8], [51.517964, -0.074522, 0.8], [51.517602, -0.074422, 0.8]],
+                {
+  "minOpacity": 0.3,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_6638af06dca24fd1f8b956da9b987a6f.addTo(map_57734c6e65e25969ff9e0a71c629b048);
+        
+</script>
+</html>
