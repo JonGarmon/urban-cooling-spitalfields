@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5b03f0d2f056781e4f5a48f0cbe8a1fc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5b03f0d2f056781e4f5a48f0cbe8a1fc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5b03f0d2f056781e4f5a48f0cbe8a1fc = L.map(
+                "map_5b03f0d2f056781e4f5a48f0cbe8a1fc",
+                {
+                    center: [51.5173, -0.0743],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 17,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8bd7897d0f4702375adbe257d767a6ad = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8bd7897d0f4702375adbe257d767a6ad.addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            var poly_line_feb06eb1db19cbee199e8a27d48edf5e = L.polyline(
+                [[51.518, -0.0745], [51.5165, -0.074]],
+                {"bubblingMouseEvents": true, "color": "#EF4444", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#EF4444", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 8}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            poly_line_feb06eb1db19cbee199e8a27d48edf5e.bindTooltip(
+                `<div>
+                     Toynbee Street - Intervention Zone
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a2fd247f728292e4b8ea21b2645fab9 = L.circleMarker(
+                [51.518, -0.0745],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_5a2fd247f728292e4b8ea21b2645fab9.bindTooltip(
+                `<div>
+                     Proposed Pit #1 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b376bb1270d9bcfd4a54afc9d016886d = L.circleMarker(
+                [51.51788461538462, -0.07446153846153845],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_b376bb1270d9bcfd4a54afc9d016886d.bindTooltip(
+                `<div>
+                     Proposed Pit #2 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a74196dd1dfff899d0e7f93932ad657 = L.circleMarker(
+                [51.51776923076923, -0.07442307692307693],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_2a74196dd1dfff899d0e7f93932ad657.bindTooltip(
+                `<div>
+                     Proposed Pit #3 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc8c7e585db74f23837b72c796146b14 = L.circleMarker(
+                [51.51765384615385, -0.07438461538461538],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_dc8c7e585db74f23837b72c796146b14.bindTooltip(
+                `<div>
+                     Proposed Pit #4 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3e5a986aa8b6e53988391098f5dfcb12 = L.circleMarker(
+                [51.517538461538464, -0.07434615384615384],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_3e5a986aa8b6e53988391098f5dfcb12.bindTooltip(
+                `<div>
+                     Proposed Pit #5 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f72009fe9a9db7daeabdc47622ef00cd = L.circleMarker(
+                [51.51742307692308, -0.07430769230769231],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_f72009fe9a9db7daeabdc47622ef00cd.bindTooltip(
+                `<div>
+                     Proposed Pit #6 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_24ca8e9bc569ddec6582e37c05682b8d = L.circleMarker(
+                [51.517307692307696, -0.07426923076923077],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_24ca8e9bc569ddec6582e37c05682b8d.bindTooltip(
+                `<div>
+                     Proposed Pit #7 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35ce3436cd32f8a05930eb169c95027d = L.circleMarker(
+                [51.517192307692305, -0.07423076923076923],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_35ce3436cd32f8a05930eb169c95027d.bindTooltip(
+                `<div>
+                     Proposed Pit #8 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1af957eea326d076499be7289db62754 = L.circleMarker(
+                [51.51707692307692, -0.07419230769230768],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_1af957eea326d076499be7289db62754.bindTooltip(
+                `<div>
+                     Proposed Pit #9 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_29663b83ba024d7f71a9cdb828c8fb98 = L.circleMarker(
+                [51.51696153846154, -0.07415384615384615],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_29663b83ba024d7f71a9cdb828c8fb98.bindTooltip(
+                `<div>
+                     Proposed Pit #10 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_99447ca2f8319ff14b28c2cd349433c6 = L.circleMarker(
+                [51.51684615384615, -0.07411538461538461],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_99447ca2f8319ff14b28c2cd349433c6.bindTooltip(
+                `<div>
+                     Proposed Pit #11 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b0b57fb84eb4053ebfcb5b6310fa4118 = L.circleMarker(
+                [51.51673076923077, -0.07407692307692307],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_b0b57fb84eb4053ebfcb5b6310fa4118.bindTooltip(
+                `<div>
+                     Proposed Pit #12 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ecad3428691260b58d2d88045354517 = L.circleMarker(
+                [51.516615384615385, -0.07403846153846154],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_0ecad3428691260b58d2d88045354517.bindTooltip(
+                `<div>
+                     Proposed Pit #13 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5963fcab7edd18d8a34dfc59c85c78a8 = L.circleMarker(
+                [51.5165, -0.074],
+                {"bubblingMouseEvents": true, "color": "#10B981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10B981", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5b03f0d2f056781e4f5a48f0cbe8a1fc);
+        
+    
+            circle_marker_5963fcab7edd18d8a34dfc59c85c78a8.bindTooltip(
+                `<div>
+                     Proposed Pit #14 (Acer platanoides)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
