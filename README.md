@@ -9,7 +9,9 @@
 
 ## 🌳 0. Crimson Sentry tree planted in Toynbee Street in March 2026
 
-![Crimson_Sentry](Toynbee_St_2026_03_19_Crimson_Sentry01.jpg,Toynbee_St_2026_03_19_Crimson_Sentry02.jpg,Toynbee_St_2026_03_19_Crimson_Sentry03.jpg) 
+![Crimson_Sentry](Toynbee_St_2026_03_19_Crimson_Sentry01.jpg) 
+![Crimson_Sentry](Toynbee_St_2026_03_19_Crimson_Sentry02.jpg) 
+![Crimson_Sentry](Toynbee_St_2026_03_19_Crimson_Sentry03.jpg) 
 
 ---
 
