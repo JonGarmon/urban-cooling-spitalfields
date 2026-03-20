@@ -7,69 +7,39 @@
 
 ---
 
-## 📋 Executive Summary
-Toynbee Street is currently a localized **"heat trap"** with less than 10% canopy cover. This project identifies **18 optimal locations** for *Acer platanoides* ‘Crimson Sentry’ pits. Implementation will provide a projected **5°C reduction** in peak surface temperatures.
-
----
-
 ## 🌡️ 1. The Problem: Urban Heat Island (UHI)
-Spitalfields’ high-density environment creates extreme thermal mass. During peak summer intervals (14:00–16:00), surface temperatures reach levels that discourage active transport and impact public health.
+Spitalfields is a localized "heat trap." Peak summer temperatures discourage active transport and impact health.
 
 ![Street Heatmap](street_heatmap.png)  
-*Figure 1: Hourly surface temperature simulation on Toynbee Street.*
+*Figure 1: Hourly surface temperature simulation.*
 
 ---
 
 ## 📈 2. The Evidence: Social ROI
-Trees are public safety infrastructure. Analysis of London ward data confirms that higher canopy cover correlates with better social outcomes.
+Analysis confirms that higher canopy cover correlates with reduced crime and increased cycling.
 
 ![Social Correlation](social_impact_correlation.png)  
-*Figure 2: Statistical correlation between canopy cover, crime reduction, and active transport (cycling).*
-
-* **Safety:** Areas with high canopy cover show significant negative correlations with crime rates.
-* **Wellbeing:** Shaded corridors directly increase the frequency of bicycle commuting.
+*Figure 2: Statistical correlation between canopy, safety, and transport.*
 
 ---
 
 ## 📏 3. The Strategy: The "Optimal 18"
-We conducted a **Ground-Truth Survey** of 45 potential sites, filtering them through an **8.5m spacing algorithm** to ensure root health and utility clearance.
+We filtered 45 surveyed points down to 18 optimal pits using an 8.5m spacing algorithm.
 
 ### Proposed Intervention Map
 ![Final Strategy Preview](map_optimal_strategy_preview.png)  
-*Figure 3: Selected 18-pit layout optimized for shade contiguity and pavement access.*
+*Figure 3: Selected 18-pit layout.*
 
-### Projected Cooling Impact
-By deploying the "Optimal 18," we can effectively "flatten" the heat curve for Toynbee Street.
+### Projected Cooling Impact & Spacing Analysis
+We calculated the thermal "flattening" effect and verified pit distribution to avoid utility clusters.
 
 ![Cooling Impact](projected_cooling_impact.png)  
-*Figure 4: Temperature mitigation forecast after full canopy maturity.*
-
----
-
-## 📐 4. Spatial Constraints & Feasibility
-We analyzed the distance between every surveyed point to ensure no two pits are closer than the 8.5m physiological minimum for *Acer platanoides*.
+*Figure 4: Temperature mitigation forecast.*
 
 ![Spacing Analysis](spacing_analysis.png)  
-*Figure 5: Algorithmic distribution of tree pits to avoid utility clusters.*
+*Figure 5: Algorithmic distribution of tree pits.*
 
 ---
-
-## 🛠️ Technical Methodology
-* **Spatial Analysis:** Field survey conducted via Google Earth (KML) to identify infrastructure constraints (gas, water, electric).
-* **Modeling:** Python (Seaborn/Folium) used to simulate UHI effects and spacing distribution.
-* **Optimal Spacing:** 8.5 meters (Algorithmically verified to maximize canopy without root competition).
-
----
-
-## 🗂️ Data Sources
-* **Tree Canopy Stats (2024):** GLA/Borough Ward-level stats.
-* **Ward Profiles:** London Datastore (Crime rates & transport metrics).
-* **Field Data:** KML identification of pavement width and utility markers on Toynbee Street.
-
----
-
-## 🏛️ Advocacy & Next Steps
-This proposal targets **Section 106 and NCIL developer levies** for funding. 
 
 **Lead Analyst:** Jonathan Garcia  
 **Contact:** [GitHub Profile](https://github.com/JonGarmon)
