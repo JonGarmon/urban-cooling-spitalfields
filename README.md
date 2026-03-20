@@ -7,6 +7,12 @@
 
 ---
 
+## 🌳 0. Crimson Sentry tree planted in Toynbee Street in March 2026
+
+![Crimson_Sentry](Toynbee_St_2026_03_19_Crimson_Sentry01.jpg,Toynbee_St_2026_03_19_Crimson_Sentry02.jpg,Toynbee_St_2026_03_19_Crimson_Sentry03.jpg) 
+
+---
+
 ## 🌡️ 1. The Problem: Urban Heat Island (UHI)
 Spitalfields is a localized "heat trap." Peak summer temperatures discourage active transport and impact health.
 
