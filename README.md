@@ -11,6 +11,7 @@
 Spitalfields is a localized "heat trap." Peak summer temperatures discourage active transport and impact health.
 
 ![Street Heatmap](street_heatmap.png)  
+![Street Heatmap](Urban_Cooling_on_Toynbee_Street.png)  
 *Figure 1: Hourly surface temperature simulation.*
 
 ---
