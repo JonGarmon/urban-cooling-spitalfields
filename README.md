@@ -4,6 +4,7 @@
 > **Status:** Active Advocacy Phase  
 > **Target:** 30 Signatures to trigger formal Council Response  
 > **Live Dashboard:** [View Interactive Site](https://jongarmon.github.io/urban-cooling-spitalfields/)
+![Intro](intro.png)  
 
 ---
 
