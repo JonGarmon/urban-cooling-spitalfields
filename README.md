@@ -10,10 +10,11 @@
 ![Intro](Intro.png) 
 ## 🌳 0. Crimson Sentry tree planted in Toynbee Street in March 2026
 
-<img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" width="25%" />
+<img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg," width="25%" src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" width="25%" src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" width="25%" />
 <img src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" width="25%" />
 <img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" width="25%" />
 
+<img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" width="25%" />
 ---
 
 ## 🌡️ 1. The Problem: Urban Heat Island (UHI)
