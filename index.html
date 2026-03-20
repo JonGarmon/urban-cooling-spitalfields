@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Toynbee: Urban Heat Mitigation</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background: #f9fafb; }
+        header { text-align: center; padding: 40px 0; border-bottom: 1px solid #e5e7eb; }
+        h1 { color: #111827; margin-bottom: 10px; }
+        h2 { color: #065f46; border-bottom: 2px solid #10b981; padding-bottom: 10px; margin-top: 40px; }
+        .status-badge { background: #10b981; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; display: inline-block; margin-bottom: 20px; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; border: 1px solid #e5e7eb; }
+        .img-grid { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 20px 0; }
+        .img-grid img { width: 28%; border-radius: 8px; border: 1px solid #ddd; }
+        .full-img { width: 100%; border-radius: 10px; margin: 15px 0; border: 1px solid #eee; }
+        .caption { font-style: italic; color: #666; font-size: 0.9rem; margin-top: -10px; margin-bottom: 20px; display: block; }
+        iframe { width: 100%; height: 600px; border: none; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        footer { text-align: center; padding: 40px; color: #6b7280; font-size: 0.9rem; }
+        a { color: #10b981; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="status-badge">ACTIVE ADVOCACY PHASE</div>
+    <h1>🌳 Project Toynbee: Urban Heat Mitigation</h1>
+    <p>Data-Driven Advocacy for Green Infrastructure in Spitalfields (London E1)</p>
+</header>
+
+<div class="card">
+    <h2>🌳 0. Implementation: March 2026</h2>
+    <p>First three <strong>Crimson Sentry</strong> specimens successfully installed. These represent the "Ground Truth" proof of concept for the wider 18-pit strategy.</p>
+    <div class="img-grid">
+        <img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" alt="Tree 1">
+        <img src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" alt="Tree 2">
+        <img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" alt="Tree 3">
+    </div>
+</div>
+
+<div class="card">
+    <h2>📏 1. Interactive Strategy: Optimal Canopy Heatmap</h2>
+    <p>The following interactive map visualizes the <strong>optimal canopy density</strong>. By layering a heatmap over the surveyed pit locations, we can identify high-impact shade zones that maximize cooling ROI.</p>
+    
+    <iframe src="Toynbee_Optimal_Strategy_Map.html"></iframe>
+    
+    <span class="caption">Interactive Map: High-density heatmap showing projected canopy spread and pit alignment.</span>
+</div>
+
+<div class="card">
+    <h2>🌡️ 2. Environmental Heat Modeling</h2>
+    <p>Toynbee Street acts as a thermal trap. Our simulation shows how peak surface temperatures (14:00 - 16:00) are mitigated by the 18-tree intervention.</p>
+    <img src="Urban_Cooling_on_Toynbee_Street.png" class="full-img" alt="Heatmap Simulation">
+    <span class="caption">Figure 1: Hourly surface temperature simulation.</span>
+</div>
+
+<div class="card">
+    <h2>📊 3. Evidence & Spacing Analysis</h2>
+    <div style="display: flex; gap: 15px;">
+        <div style="flex: 1;">
+            <img src="projected_cooling_impact.png" class="full-img" alt="Cooling Impact">
+            <span class="caption">Figure 2: Temperature mitigation forecast.</span>
+        </div>
+        <div style="flex: 1;">
+            <img src="spacing_analysis.png" class="full-img" alt="Spacing Analysis">
+            <span class="caption">Figure 3: Algorithmic distribution of pits.</span>
+        </div>
+    </div>
+    <img src="social_impact_correlation.png" class="full-img" alt="Social Correlation">
+    <span class="caption">Figure 4: Statistical correlation between canopy and social wellbeing.</span>
+</div>
+
+<footer>
+    <p><strong>Lead Analyst:</strong> Jonathan Garcia</p>
+    <p><a href="https://github.com/JonGarmon">GitHub Repository</a> | <a href="https://jongarmon.github.io/urban-cooling-spitalfields/">Live Dashboard</a></p>
+</footer>
+
+</body>
+</html>
