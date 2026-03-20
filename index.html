@@ -1,80 +1,106 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Toynbee: Urban Heat Mitigation</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background: #f9fafb; }
-        header { text-align: center; padding: 40px 0; border-bottom: 1px solid #e5e7eb; }
-        h1 { color: #111827; margin-bottom: 10px; }
-        h2 { color: #065f46; border-bottom: 2px solid #10b981; padding-bottom: 10px; margin-top: 40px; }
-        .status-badge { background: #10b981; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; display: inline-block; margin-bottom: 20px; }
-        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; border: 1px solid #e5e7eb; }
-        .img-grid { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 20px 0; }
-        .img-grid img { width: 28%; border-radius: 8px; border: 1px solid #ddd; }
-        .full-img { width: 100%; border-radius: 10px; margin: 15px 0; border: 1px solid #eee; }
-        .caption { font-style: italic; color: #666; font-size: 0.9rem; margin-top: -10px; margin-bottom: 20px; display: block; }
-        iframe { width: 100%; height: 600px; border: none; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        footer { text-align: center; padding: 40px; color: #6b7280; font-size: 0.9rem; }
-        a { color: #10b981; text-decoration: none; font-weight: bold; }
+        #map_canopy_heatmap {
+            position: relative;
+            width: 100.0%;
+            height: 100.0%;
+            left: 0.0%;
+            top: 0.0%;
+        }
+        .leaflet-container { font-size: 1rem; }
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
     </style>
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
 </head>
 <body>
-
-<header>
-    <div class="status-badge">ACTIVE ADVOCACY PHASE</div>
-    <h1>🌳 Project Toynbee: Urban Heat Mitigation</h1>
-    <p>Data-Driven Advocacy for Green Infrastructure in Spitalfields (London E1)</p>
-</header>
-
-<div class="card">
-    <h2>🌳 0. Implementation: March 2026</h2>
-    <p>First three <strong>Crimson Sentry</strong> specimens successfully installed. These represent the "Ground Truth" proof of concept for the wider 18-pit strategy.</p>
-    <div class="img-grid">
-        <img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" alt="Tree 1">
-        <img src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" alt="Tree 2">
-        <img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" alt="Tree 3">
-    </div>
-</div>
-
-<div class="card">
-    <h2>📏 1. Interactive Strategy: Optimal Canopy Heatmap</h2>
-    <p>The following interactive map visualizes the <strong>optimal canopy density</strong>. By layering a heatmap over the surveyed pit locations, we can identify high-impact shade zones that maximize cooling ROI.</p>
-    
-    <iframe src="Toynbee_Optimal_Strategy_Map.html"></iframe>
-    
-    <span class="caption">Interactive Map: High-density heatmap showing projected canopy spread and pit alignment.</span>
-</div>
-
-<div class="card">
-    <h2>🌡️ 2. Environmental Heat Modeling</h2>
-    <p>Toynbee Street acts as a thermal trap. Our simulation shows how peak surface temperatures (14:00 - 16:00) are mitigated by the 18-tree intervention.</p>
-    <img src="Urban_Cooling_on_Toynbee_Street.png" class="full-img" alt="Heatmap Simulation">
-    <span class="caption">Figure 1: Hourly surface temperature simulation.</span>
-</div>
-
-<div class="card">
-    <h2>📊 3. Evidence & Spacing Analysis</h2>
-    <div style="display: flex; gap: 15px;">
-        <div style="flex: 1;">
-            <img src="projected_cooling_impact.png" class="full-img" alt="Cooling Impact">
-            <span class="caption">Figure 2: Temperature mitigation forecast.</span>
-        </div>
-        <div style="flex: 1;">
-            <img src="spacing_analysis.png" class="full-img" alt="Spacing Analysis">
-            <span class="caption">Figure 3: Algorithmic distribution of pits.</span>
-        </div>
-    </div>
-    <img src="social_impact_correlation.png" class="full-img" alt="Social Correlation">
-    <span class="caption">Figure 4: Statistical correlation between canopy and social wellbeing.</span>
-</div>
-
-<footer>
-    <p><strong>Lead Analyst:</strong> Jonathan Garcia</p>
-    <p><a href="https://github.com/JonGarmon">GitHub Repository</a> | <a href="https://jongarmon.github.io/urban-cooling-spitalfields/">Live Dashboard</a></p>
-</footer>
-
+    <div class="folium-map" id="map_canopy_heatmap"></div>
 </body>
+<script>
+    var map_canopy_heatmap = L.map(
+        "map_canopy_heatmap",
+        {
+            center: [51.5173, -0.0743],
+            crs: L.CRS.EPSG3857,
+            zoom: 19,
+            zoomControl: true,
+            preferCanvas: false,
+        }
+    );
+
+    var tile_layer_base = L.tileLayer(
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {
+            "minZoom": 0,
+            "maxZoom": 19,
+            "maxNativeZoom": 19,
+            "noWrap": false,
+            "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+            "opacity": 1,
+        }
+    ).addTo(map_canopy_heatmap);
+
+    // List of Optimal Pit Coordinates
+    var pits = [
+        [51.517006, -0.074228], [51.517072, -0.07425], [51.517101, -0.074261], 
+        [51.517132, -0.074273], [51.517175, -0.07429], [51.517295, -0.074322], 
+        [51.517256, -0.074308], [51.517213, -0.074295], [51.517303, -0.074206], 
+        [51.517337, -0.074213], [51.517382, -0.074347], [51.517342, -0.074337], 
+        [51.517403, -0.074231], [51.517428, -0.074362], [51.517473, -0.074376], 
+        [51.51752, -0.074391], [51.517561, -0.074405], [51.517639, -0.074429], 
+        [51.517682, -0.074446], [51.517768, -0.074465], [51.517843, -0.074488], 
+        [51.517914, -0.074508], [51.518325, -0.074579], [51.518402, -0.074522], 
+        [51.518332, -0.074438], [51.517922, -0.074393], [51.517823, -0.074362], 
+        [51.517768, -0.07435], [51.517716, -0.074336], [51.517657, -0.074318], 
+        [51.517564, -0.074287], [51.517493, -0.074265], [51.517465, -0.074257], 
+        [51.517436, -0.074244], [51.517369, -0.074222], [51.51727, -0.074196], 
+        [51.517204, -0.074174], [51.517063, -0.074126], [51.516838, -0.074269], 
+        [51.516931, -0.074249], [51.516941, -0.074052], [51.517004, -0.074107], 
+        [51.518055, -0.07455], [51.517964, -0.074522], [51.517602, -0.074422]
+    ];
+
+    // Add Individual Markers
+    pits.forEach(function(coord, index) {
+        L.circleMarker(coord, {
+            "bubblingMouseEvents": true, 
+            "color": "#10B981", 
+            "fill": true, 
+            "fillColor": "#10B981", 
+            "fillOpacity": 1, 
+            "radius": 6, 
+            "stroke": true, 
+            "weight": 3
+        }).addTo(map_canopy_heatmap)
+          .bindTooltip("Surveyed Tree Pit Location #" + (index + 1), { sticky: true });
+    });
+
+    // Add Heat Layer (Projected Canopy Density)
+    var heat_data = pits.map(function(p) { return [p[0], p[1], 0.8]; });
+    var heat_layer = L.heatLayer(heat_data, {
+        "minOpacity": 0.3,
+        "maxZoom": 18,
+        "radius": 25,
+        "blur": 15
+    }).addTo(map_canopy_heatmap);
+
+</script>
 </html>
