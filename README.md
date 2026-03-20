@@ -4,10 +4,10 @@
 > **Status:** Active Advocacy Phase  
 > **Target:** 30 Signatures to trigger formal Council Response  
 > **Live Dashboard:** [View Interactive Site](https://jongarmon.github.io/urban-cooling-spitalfields/)
-![Intro](intro.png)  
+ 
 
 ---
-
+![Intro](intro.png) 
 ## 🌳 0. Crimson Sentry tree planted in Toynbee Street in March 2026
 
 <img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" width="25%" />
