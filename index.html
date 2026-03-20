@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Toynbee: Urban Heat Mitigation</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background: #f9fafb; }
+        header { text-align: center; padding: 40px 0; border-bottom: 1px solid #e5e7eb; }
+        h1 { color: #111827; margin-bottom: 10px; }
+        h2 { color: #065f46; border-bottom: 2px solid #10b981; padding-bottom: 10px; margin-top: 40px; }
+        .status-badge { background: #10b981; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; display: inline-block; margin-bottom: 20px; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; border: 1px solid #e5e7eb; }
+        .img-container { text-align: center; margin: 20px 0; }
+        .img-grid { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+        .img-grid img { width: 28%; border-radius: 8px; border: 1px solid #ddd; }
+        .full-img { width: 100%; border-radius: 10px; margin: 15px 0; }
+        .caption { font-style: italic; color: #666; font-size: 0.9rem; margin-top: -10px; margin-bottom: 20px; display: block; }
+        iframe { width: 100%; height: 600px; border: none; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        blockquote { background: #ecfdf5; border-left: 5px solid #10b981; padding: 15px; margin: 20px 0; font-style: italic; }
+        footer { text-align: center; padding: 40px; color: #6b7280; font-size: 0.9rem; }
+        a { color: #10b981; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="status-badge">ACTIVE ADVOCACY PHASE</div>
+    <h1>🌳 Project Toynbee: Urban Heat Mitigation</h1>
+    <p>Data-Driven Advocacy for Green Infrastructure in Spitalfields (London E1)</p>
+    <p>Target: <strong>30 Signatures</strong> to trigger formal Council Response</p>
+</header>
+
+<div class="card">
+    <h2>🌳 0. Implementation: March 2026</h2>
+    <p>First Crimson Sentry trees successfully planted in Toynbee Street. These specimens represent the first phase of the Optimal 18 strategy.</p>
+    <div class="img-grid">
+        <img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" alt="Planting 01">
+        <img src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" alt="Planting 02">
+        <img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" alt="Planting 03">
+    </div>
+</div>
+
+<div class="card">
+    <h2>🌡️ 1. The Problem: Urban Heat Island (UHI)</h2>
+    <p>Spitalfields is a localized "heat trap." Peak summer temperatures discourage active transport and impact health.</p>
+    <img src="Urban_Cooling_on_Toynbee_Street.png" class="full-img" alt="Heatmap Simulation">
+    <span class="caption">Figure 1: Hourly surface temperature simulation.</span>
+</div>
+
+<div class="card">
+    <h2>📈 2. The Evidence: Social ROI</h2>
+    <p>Analysis confirms that higher canopy cover correlates with reduced crime and increased cycling across London wards.</p>
+    <img src="social_impact_correlation.png" class="full-img" alt="Social Correlation">
+    <span class="caption">Figure 2: Statistical correlation between canopy, safety, and transport.</span>
+</div>
+
+<div class="card">
+    <h2>📏 3. The Strategy: The "Optimal 18"</h2>
+    <p>We filtered 45 surveyed points down to 18 optimal pits using an 8.5m spacing algorithm to maximize cooling while avoiding utility clusters.</p>
+    
+    <h3>Interactive Proposed Intervention Map</h3>
+    <iframe src="Toynbee_Optimal_Strategy_Map.html"></iframe>
+    
+    <img src="map_optimal_strategy_preview.png" class="full-img" alt="Map Preview">
+    <span class="caption">Figure 3: Selected 18-pit layout.</span>
+</div>
+
+<div class="card">
+    <h2>📊 Cooling Impact & Spacing Analysis</h2>
+    <div class="img-grid" style="display: block;">
+        <img src="projected_cooling_impact.png" style="width: 48%;" alt="Cooling Impact">
+        <img src="spacing_analysis.png" style="width: 48%;" alt="Spacing Analysis">
+    </div>
+    <span class="caption">Figure 4 & 5: Temperature mitigation forecast and algorithmic pit distribution.</span>
+</div>
+
+<footer>
+    <p><strong>Lead Analyst:</strong> Jonathan Garcia</p>
+    <p><a href="https://github.com/JonGarmon">View GitHub Profile</a> | <a href="https://jongarmon.github.io/urban-cooling-spitalfields/">Live Dashboard</a></p>
+</footer>
+
+</body>
+</html>
