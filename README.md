@@ -43,3 +43,32 @@ We filtered 45 points down to 18 using an 8.5m spacing algorithm.
 
 **Analyst:** Jonathan Garcia  
 **Contact:** [GitHub Profile](https://github.com/JonGarmon)
+
+---
+
+🗂️ Data Sources & Open Access Links
+London Ward Profiles & Atlas (Canopy & Social ROI Data)
+Contains the ward-level statistics for tree cover, crime rates, and transport used in the correlation analysis.
+https://data.london.gov.uk/dataset/ward-profiles-and-atlas
+
+London Tree Canopy Cover (GLA 2024)
+Specific high-resolution data on existing canopy percentages across London boroughs.
+https://data.london.gov.uk/dataset/curio-canopy
+
+UK Met Office: Urban Heat Island (UHI) Profiles
+Baseline data for atmospheric and surface temperature differentials in London.
+https://www.metoffice.gov.uk/research/climate/maps-and-data
+
+Tower Hamlets Open Data Portal
+Local infrastructure data, including planned developments and local ward priorities.
+https://www.towerhamlets.gov.uk/lgnl/community_and_living/information_and_statistics/
+
+RHS Plant Finder: Acer platanoides 'Crimson Sentry'
+Technical specifications for the chosen tree species habit and spacing requirements.
+https://www.rhs.org.uk/plants/details?plantid=41
+
+Section 106 & NCIL Funding Protocols
+Guidance on how developer levies are allocated for community infrastructure in Tower Hamlets.
+https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/section_106/
+
+---
