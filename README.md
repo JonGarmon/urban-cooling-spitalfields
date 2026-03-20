@@ -1,53 +1,44 @@
 # 🌳 Project Toynbee: Urban Heat Mitigation
-**Data-Driven Advocacy for Green Infrastructure in Spitalfields (London E1)**
+**Data-Driven Advocacy for Green Infrastructure**
 
 > **Status:** Active Advocacy Phase  
-> **Target:** 30 Signatures to trigger formal Council Response  
 > **Live Dashboard:** [View Interactive Site](https://jongarmon.github.io/urban-cooling-spitalfields/)
- 
 
 ---
-![Intro](Intro.png) 
-## 🌳 0. Crimson Sentry tree planted in Toynbee Street in March 2026
 
-<img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg," widtg="25%" />
-<img src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" width="25%" />
-<img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" width="25%" />
+## 🌳 0. Implementation: March 2026
+*First 3 Crimson Sentry specimens planted in Toynbee Street.*
+
+<p align="center">
+  <img src="Toynbee_St_2026_03_19_Crimson_Sentry01.jpg" width="31%" />
+  <img src="Toynbee_St_2026_03_19_Crimson_Sentry02.jpg" width="31%" />
+  <img src="Toynbee_St_2026_03_19_Crimson_Sentry03.jpg" width="31%" />
+</p>
+
 ---
 
-## 🌡️ 1. The Problem: Urban Heat Island (UHI)
-Spitalfields is a localized "heat trap." Peak summer temperatures discourage active transport and impact health.
+## 🌡️ 1. The Problem: Urban Heat Island
+Spitalfields is a localized "heat trap." Peak summer temperatures discourage active transport.
 
 ![Street Heatmap](Urban_Cooling_on_Toynbee_Street.png)  
-*Figure 1: Hourly surface temperature simulation.*
+*Figure 1: Surface temperature simulation.*
 
 ---
 
-## 📈 2. The Evidence: Social ROI
-Analysis confirms that higher canopy cover correlates with reduced crime and increased cycling.
-
-![Social Correlation](social_impact_correlation.png)  
-*Figure 2: Statistical correlation between canopy, safety, and transport.*
-
----
-
-## 📏 3. The Strategy: The "Optimal 18"
-We filtered 45 surveyed points down to 18 optimal pits using an 8.5m spacing algorithm.
+## 📏 2. The "Optimal 18" Strategy
+We filtered 45 points down to 18 using an 8.5m spacing algorithm.
 
 ### Proposed Intervention Map
 ![Final Strategy Preview](map_optimal_strategy_preview.png)  
-*Figure 3: Selected 18-pit layout.*
+*Figure 2: Selected 18-pit layout.*
 
-### Projected Cooling Impact & Spacing Analysis
-We calculated the thermal "flattening" effect and verified pit distribution to avoid utility clusters.
-
-![Cooling Impact](projected_cooling_impact.png)  
-*Figure 4: Temperature mitigation forecast.*
-
-![Spacing Analysis](spacing_analysis.png)  
-*Figure 5: Algorithmic distribution of tree pits.*
+<p align="center">
+  <img src="projected_cooling_impact.png" width="48%" />
+  <img src="spacing_analysis.png" width="48%" />
+</p>
+*Figures 3 & 4: Cooling forecast and pit distribution.*
 
 ---
 
-**Lead Analyst:** Jonathan Garcia  
+**Analyst:** Jonathan Garcia  
 **Contact:** [GitHub Profile](https://github.com/JonGarmon)
